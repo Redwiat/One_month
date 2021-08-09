@@ -5,8 +5,8 @@
 # - minus
 # / divide
 # * times
-# ** exponetiation
-# % mudulo
+# ** exponentiation
+# % modulo
 # < less then
 # < greater then
 
