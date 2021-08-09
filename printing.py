@@ -1,6 +1,11 @@
+#this is comment
+
 print("Winter is Comming")
+
 print("you know nothing", "Abdullah Al Redwan")
+
 print("Learning" "learning" "learning")
+
 print('''
 Learning, learning, learning
 When I was six years old, I kinda wet the bed
