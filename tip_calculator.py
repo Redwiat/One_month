@@ -1,21 +1,22 @@
-#inputs and variables
+#input, variable
 
-bill = float(input("How much did your meal cost? "))
+price = float(input("How much does your product cost? "))
 
-tip = int(input("how much tip do you want to add 15% , 18% 44or 20% ?? "))
+tip = int(input("How much tip do you expect for this service? "))
 
-tax = 0.05
+tax = 15
 
-#math calculations
+#math
 
-tax_amt = bill * tax
+tax_amt = price * tax
 
-tip_amt = bill * tip/100
+tip_amt = price * tip/50
 
-total = bill + tip_amt + tax_amt
+total = price + tip_amt + tax_amt
 
-#printing
+#print
 
-print(f"Your Bill is ${bill:.2f} and your tip is ${tip_amt:.2f} ")
+print(f"Your Bill is ${price:.2f} and your tip is ${tip_amt:.2f} ")
 
 print(f"Your total with tax is ${total:.2f}")
+
