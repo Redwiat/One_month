@@ -16,7 +16,7 @@ elif answer == "No" or answer == "no" :
     print("Fine.")
 else:
     print("I don't understand.")
-    
+     
     
     answer = input("Do you want to hear a joke? ")
 
